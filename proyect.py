@@ -11,3 +11,10 @@ print(f"La media es: {round(media, 2)}") # con el comando "round" se limita el n
 
 media = sum(conjunto_datos) / len(conjunto_datos)
 print(f"La media es: {round(media, 2)}")
+"""
+Es el número intermedio de un grupo de números; es decir, la mitad de los números son 
+superiores a la mediana y la mitad de los números tienen valores menores que la mediana. 
+"""
+# Opcion 1
+mediana = statistics.median(conjunto_datos) # con la librería statistics se puede usar el comando median para calcular la mediana
+print(f"La mediana es: {mediana}")
